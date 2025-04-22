@@ -28,4 +28,14 @@
         ros2 launch turtlesim/launch/multisim.launch.py // multiple turtle sim window
         ```
 
+-   Expand the window - right now shows only small window
+
+    -   Maximise the window to full screen
+    -   Adapting the environment and wall to full screen from fixed screen
+
 -   Add collision awareness between multiple turtles
+
+    _Right now the background is a QtImage -> I will have to change this to dynamic content_
+
+    -   Will load a fixed square/ circle
+    -   Whenever it is within this square/circle boundary range stop the turtle
